@@ -8,7 +8,7 @@ const doSignup = () => {
     headers: {
       "Content-Type": "application/json",
     },
-    credentials: "same-origin",
+    credentials: "include",
     body: JSON.stringify({
       name,
       email,
