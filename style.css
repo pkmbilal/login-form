@@ -98,6 +98,12 @@ i.fa-user {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+#uname:focus,
+#name:focus,
+#email:focus,
+#password:focus {
+  background-color: lightgrey;
+}
 .username,
 .name,
 .email {
